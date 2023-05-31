@@ -29,7 +29,7 @@ int main()
 	int arr[a];
 	for(int i=0;i<a;i++) cin >> arr[i];
 	int answer = LargButMinFreq(arr,a);
-	cout<<"The largest element with minimum frequency in the given array is:"<<answer;
+	cout<<"The largest element with minimum frequency in the given array is: "<<answer;
 	return 0;
 
 }
